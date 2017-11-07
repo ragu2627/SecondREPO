@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>html form</title>
+<style>
+footer
+   {width:100%;
+   background:#220;
+   padding:40px 0px;
+   }
+   </style>
+<head>
+<body>
+<p style="color:red; font-size:25px">Fooder</p>
+<br/>
+<p>Register</p>
+<p>Please fill out the below form</p>
+<br/>
+<form>
+<div>
+<fieldset>
+<legend>Details</legend>
+<label>email:<input type="email" name="email"/>
+</label><br/><br/>
+<label>password:<input type="password" name="password">
+</label>
+</fieldset>
+<br/><br/>
+<fieldset>
+<legend>Address</legend>
+<label for="address"/>address</label>
+<input id="address" name="address" type="text"/>
+<br/><br/>
+<label for="street"/>street</label>
+<input id="street" name="street" type="text"/>
+<br/><br/>
+<label for="city"/>city</label>
+<input id="city" name="city" type="text"/>
+<br/><br/>
+<label for="zipcode"/>zipcode</label>
+<input id="zipcode" name="zipcode" type="text" maxlength="5"/>
+</fieldset>
+<br/><br/>
+<button type="submit">submit</button>
+</div>
+</form>
+<footer>
+<div class="wrapper">
+<ul>
+    <li><a href="index.html">HOME</a></li>
+	<li><a href="register.html">REGISTER</a></li>
+	<li><a href="about.html">HOW IT ALL WORKS</a></li>
+</ul>
+</footer>
+</body>
+</html>
