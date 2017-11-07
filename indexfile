@@ -1,0 +1,84 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>HTML home</title>
+<style>
+	h3{
+	text-align:right;
+	text-decoration:underline;
+	}
+	h4
+	{
+	background-color:#FDEDEC;
+	}
+footer
+   {width:100%;
+   background:#E6B0AA;
+   padding:40px 0px;
+   }
+.pull-left
+   {
+   float:left;
+   }
+.pull-right
+   {
+   float:right;
+   }
+   
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+   <center><p style="color:green;font-size:20px">banner information</p></center>
+<br/>
+<hr>
+   <img src="logo.png" alt="company logo"/>
+   <h3><a href="register.html">sign_in/register</a></h3>
+<hr/>
+<h4>
+   <img src="imagefooder.jpg" width="1500px" height="400px" alt="recipe"/>
+<br/>
+<br/>
+   <p style="color:dark black;font-size:22px">Find a driver near you!</P>
+   <p style="color:dark black;font-size:22px">Type in your zipcode below and click go! to find a driver near you</P>
+ <form>
+  <input/><button type="submit" maxlength="5">Go!</button>
+ </form>
+<br/>
+</h4>
+<hr/>
+    <footer>
+	<div clas="pull-left">
+    <ul>
+     <li><a href="index.html">HOME</a></li>
+	 <li><a href="register.html">REGISTER</a></li>
+	 <li><a href="about.html">HOW IT ALL WORKS</a></li>
+    </ul>
+	</div>
+      <a href="privacypolicy.html">privacy policy and terms & conditions</a>
+    <div class="pull-right">
+	<p>Good food is good mood</p>
+	</div>
+   </footer>
+  </body>
+ </head>
+</html>
