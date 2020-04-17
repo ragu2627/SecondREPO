@@ -1,0 +1,12 @@
+---
+ - hosts : app-servers
+   vars:
+ 
+   tasks:
+     - name: ensure group tomcat exists
+       group:
+         name: tomcat
+         state: present
+...
+
+   
